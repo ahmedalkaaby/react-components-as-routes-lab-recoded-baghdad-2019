@@ -6,12 +6,12 @@ const Movies = () => {
     <div>
       <h1>Movies Page</h1>
     </div>
-    <div>
-    <div>this.movies.title</div>
-    <div>this.movies.time</div>
-    <ul>this.movies.genres.map(data=>
-<li>data</li>) </ul>
-    </div>
+    <div>movies.map(movie=>
+    <div>this.movie.title</div>
+    <div>this.movie.time</div>
+    <ul>this.movie.genres.map(data=>
+<li>{data}</li>) </ul>
+    )</div>
   );
 };
 
