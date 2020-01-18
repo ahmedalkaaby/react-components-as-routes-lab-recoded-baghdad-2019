@@ -9,9 +9,8 @@ const Movies = () => {
     <div>
     <div>this.movies.title</div>
     <div>this.movies.time</div>
-    <div>this.movies.genres.map(data=> <ul>
-<li>data</li>
-      </ul>) </div>
+    <ul>this.movies.genres.map(data=>
+<li>data</li>) </ul>
     </div>
   );
 };
